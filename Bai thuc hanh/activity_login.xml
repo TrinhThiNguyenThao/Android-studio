@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    -<RelativeLayout
+    android:background="#262635" tools:context=".MainActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:background="#177DCD"
+        android:layout_height="36dp"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:text="MTT61-NTU Quiz"
+        android:id="@+id/tt"/>
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="409dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="66dp"
+        android:text="MÀN HÌNH ĐĂNG NHẬP"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_height="64dp"
+        android:layout_width="406dp"
+        android:id="@+id/edu"
+        android:layout_marginTop="61dp"
+        android:layout_marginStart="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt"
+        android:hint="Username"
+        android:layout_marginEnd="0dp"/>
+
+    <EditText
+        android:layout_height="64dp"
+        android:layout_width="406dp"
+        android:id="@+id/edp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="6dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edu"
+        android:hint="Password"
+        android:layout_marginEnd="-1dp"/>
+
+    <EditText
+        android:layout_height="64dp"
+        android:layout_width="406dp"
+        android:id="@+id/ede"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="6dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edp"
+        android:hint="Email"
+        android:layout_marginEnd="-1dp"/>
+
+    <Button
+        android:layout_height="79dp"
+        android:layout_width="wrap_content"
+        android:text="Xác nhận"
+        android:id="@+id/btnxn"
+        android:layout_marginTop="58dp"
+        android:layout_marginStart="123dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ede"
+        android:layout_marginEnd="125dp"/>
+
+</RelativeLayout>
